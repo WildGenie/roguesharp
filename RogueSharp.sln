@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		HowToBuildNugetPackage.txt = HowToBuildNugetPackage.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogueSharp.Unity", "RogueSharp.Unity\RogueSharp.Unity.csproj", "{561239B7-EE00-45B9-921C-C2C757AB3D44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A1494180-593F-46C0-8C34-47D3289A3CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1494180-593F-46C0-8C34-47D3289A3CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1494180-593F-46C0-8C34-47D3289A3CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561239B7-EE00-45B9-921C-C2C757AB3D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561239B7-EE00-45B9-921C-C2C757AB3D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561239B7-EE00-45B9-921C-C2C757AB3D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561239B7-EE00-45B9-921C-C2C757AB3D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
