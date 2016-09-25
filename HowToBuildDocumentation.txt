@@ -9,3 +9,15 @@ Replace for real
 C:\GitProjects\sandcastle-md\src\sandcastle-md\bin\Debug\fart.exe -r -c  c:\gitprojects\wiki\ "&lt;" "<"
 
 C:\GitProjects\sandcastle-md\src\sandcastle-md\bin\Debug\fart.exe -r -c -p  c:\gitprojects\wiki\ "Dreamers Design" "Faron Bracy"
+
+
+TODO:
+
+Diagonal Movement
+Pathfinder work
+Test for Rectangle
+Dotnet core
+String library
+Struct for cell
+Test Coverage
+Different shapes of field-of-view

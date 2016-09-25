@@ -93,14 +93,14 @@ namespace RogueSharp
       /// <returns>List of Cells representing what is observable in the Map based on the specified parameters</returns>
       public ReadOnlyCollection<ICell> AppendFov( int xOrigin, int yOrigin, int radius, bool lightWalls )
       {
-         foreach ( ICell borderCell in _map.GetBorderCellsInArea( xOrigin, yOrigin, radius ) )
+         foreach ( ICell borderCell in _map.GetBorderCellsInRadius( xOrigin, yOrigin, radius ) )
          {
             foreach ( ICell cell in _map.GetCellsAlongLine( xOrigin, yOrigin, borderCell.X, borderCell.Y ) )
             {
-               if ( ( Math.Abs( cell.X - xOrigin ) + Math.Abs( cell.Y - yOrigin ) ) > radius )
-               {
-                  break;
-               }
+               //if ( ( Math.Abs( cell.X - xOrigin ) + Math.Abs( cell.Y - yOrigin ) ) > radius )
+               //{
+               //   break;
+               //}
                if ( cell.IsTransparent )
                {
                   _inFov.Add( _map.IndexFor( cell ) );
